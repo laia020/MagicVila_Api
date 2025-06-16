@@ -1,13 +1,22 @@
 ﻿using MagicVilla_VillaAPI.Models.Dto;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace MagicVilla_VillaAPI.Data
+namespace MagicVilla_VillaAPI.Models
 {
-    public class VillaStore
+    public class Villa
     {
-        public static List<VillaDTO> villaList = new List<VillaDTO>
-        {
-                new VillaDTO{Id=1,Name="Pool View", Sqft=100, Occupancy=4},
-                new VillaDTO{Id=2,Name="Beach View", Sqft=300, Occupancy=3}
-        };
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Details { get; set; }
+        public double Rate { get; set; }
+        public int Sqft { get; set; }
+        public int Occupancy { get; set; }
+        public string ImageUrl { get; set; }
+        public string Amenity { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public DateTime UpdateDate { get; set; }
     }
 }
