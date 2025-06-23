@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lHv/jWcoeu4=",
+  "dgSpecHash": "PQeBXm2RUDU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas.manentti\\Projetos\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj",
+  "projectFilePath": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas.manentti\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\lucas.manentti\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
