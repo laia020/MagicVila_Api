@@ -18,17 +18,18 @@ namespace MagicVilla_Web.Services
         }
 
 
-        public async Task<T> SendAsync<T>(APIResquest apiRequest)
+        public async Task<T> SendAsync<T>(APIRequest apiRequest)
         {
-            try // 6:37
+            try
             {
                 var client = httpCLient.CreateClient("MagicAPI");
                 HttpRequestMessage message = new HttpRequestMessage();
-                message.Headers.Add("Content-Type", "application/json");
+                message.Headers.Add("Accept", "application/json");
                 message.RequestUri = new Uri(apiRequest.Url);
                 if (apiRequest.Data != null)
                 {
-                    message.Content = new StringContent(JsonConvert.SerializeObject(apiRequest.Data),Encoding.UTF8, "application/json");
+                    message.Content = new StringContent(JsonConvert.SerializeObject(apiRequest.Data)
+                        ,Encoding.UTF8, "application/json");
                 }
                 switch (apiRequest.ApiType)
                 {
@@ -52,6 +53,9 @@ namespace MagicVilla_Web.Services
 
                 var apitContent = await apiResponse.Content.ReadAsStringAsync();
                 var APIResponse = JsonConvert.DeserializeObject<T>(apitContent);
+
+                
+
                 return APIResponse;
             }
             catch(Exception e)
