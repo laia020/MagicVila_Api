@@ -30,8 +30,8 @@
                     <td>@item.Occupancy</td>
                     <td>@((item.Rate).ToString("c"))</td>
                     <td>
-                        <a asp-controller="Villa" asp-action="Update Villa" class="btn btn-success"><i class="bi bi-pencil-square"></i></a>
-                        <a asp-controller="Villa" asp-action="Delete Villa" class="btn btn-danger"><i class="bi bi-trash-fill"></i></a>
+                        <a asp-controller="Villa" asp-action="Update Villa" asp-route-villaId=""item.Id" class="btn btn-success"><i class="bi bi-pencil-square"></i></a>
+                        <a asp-controller="Villa" asp-action="Delete Villa" asp-route-villaId=""item.Id" class="btn btn-danger"><i class="bi bi-trash-fill"></i></a>
                     </td>
                 </tr>
             }
