@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NlchAtAVPCvwo+sd15tTlcc0+8G95HpzkYwWqVSp0WQ=",
+  "Hash": "Zdq8pALuyFF34ktnXjrBB2ZMDtFyt2IHA/GAbabdMqE=",
   "Source": "MagicVilla_Web",
   "BasePath": "_content/MagicVilla_Web",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MagicVilla_Web.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\css\\bootstrap.css",
+      "SourceId": "MagicVilla_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\",
+      "BasePath": "_content/MagicVilla_Web",
+      "RelativePath": "css/bootstrap#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "izc3uo4yf5",
+      "Integrity": "gp1pdSz4T+3waTzHQO/QdDQL025k1f6EQGF+g3mmtpE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
+    },
+    {
       "Identity": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\css\\site.css",
       "SourceId": "MagicVilla_Web",
       "SourceType": "Discovered",
@@ -99,6 +120,174 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\home\\confirmation.jpg",
+      "SourceId": "MagicVilla_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\",
+      "BasePath": "_content/MagicVilla_Web",
+      "RelativePath": "images/home/confirmation#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c5mculjpc2",
+      "Integrity": "4EIAH2Oo3v+7VdLAVtjV/tDqgPySSzqqIWuVW1cVbZ8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\home\\confirmation.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\home\\slide1.jpg",
+      "SourceId": "MagicVilla_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\",
+      "BasePath": "_content/MagicVilla_Web",
+      "RelativePath": "images/home/slide1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xr84vm0qur",
+      "Integrity": "k+Ob2+thqrqnBw2tjJKyEaXrfMVg/I6dGTDHVw1ZrdM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\home\\slide1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\home\\slide2.jpg",
+      "SourceId": "MagicVilla_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\",
+      "BasePath": "_content/MagicVilla_Web",
+      "RelativePath": "images/home/slide2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6r25ja0pdn",
+      "Integrity": "zsftHjfaXaeMPBxMUKXhvBAD67eFM9PnFF6Amp1Ydmc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\home\\slide2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\villa\\villa1.jpg",
+      "SourceId": "MagicVilla_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\",
+      "BasePath": "_content/MagicVilla_Web",
+      "RelativePath": "images/villa/villa1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tmprp7755k",
+      "Integrity": "e2A7Nr+GoaTZvjMfN8tiS5qHPsIGTNpXTTB/7QaCSIw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\villa\\villa1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\villa\\villa2.jpg",
+      "SourceId": "MagicVilla_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\",
+      "BasePath": "_content/MagicVilla_Web",
+      "RelativePath": "images/villa/villa2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ew5ylm429n",
+      "Integrity": "oqC104M02bW0Kwnk/Vvuk0pHyHjttjQQZPDDvd4wqzU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\villa\\villa2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\villa\\villa3.jpg",
+      "SourceId": "MagicVilla_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\",
+      "BasePath": "_content/MagicVilla_Web",
+      "RelativePath": "images/villa/villa3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iajvd1mfdt",
+      "Integrity": "amSQSs6DPzJEW/3NfqpfCglH3bgnqR641jwtJ63ux58=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\villa\\villa3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\villa\\villa4.jpg",
+      "SourceId": "MagicVilla_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\",
+      "BasePath": "_content/MagicVilla_Web",
+      "RelativePath": "images/villa/villa4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zhwp7nq2j2",
+      "Integrity": "x7N53MKiRTMWFJfQGaXRQb+5WRgbgRPvBMnWsTpYu/g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\villa\\villa4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\villa\\villa5.jpg",
+      "SourceId": "MagicVilla_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\",
+      "BasePath": "_content/MagicVilla_Web",
+      "RelativePath": "images/villa/villa5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5njr9z67y8",
+      "Integrity": "zy6h0PMrv9W7lECkpYadIXCGClQyQv+LsAZq7NHLY/c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\villa\\villa5.jpg"
     },
     {
       "Identity": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\js\\site.js",
@@ -1321,6 +1510,88 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/bootstrap.css",
+      "AssetFile": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "324764"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gp1pdSz4T+3waTzHQO/QdDQL025k1f6EQGF+g3mmtpE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Jul 2025 20:43:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gp1pdSz4T+3waTzHQO/QdDQL025k1f6EQGF+g3mmtpE="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.izc3uo4yf5.css",
+      "AssetFile": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "324764"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gp1pdSz4T+3waTzHQO/QdDQL025k1f6EQGF+g3mmtpE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Jul 2025 20:43:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "izc3uo4yf5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gp1pdSz4T+3waTzHQO/QdDQL025k1f6EQGF+g3mmtpE="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1481,6 +1752,662 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/home/confirmation.c5mculjpc2.jpg",
+      "AssetFile": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\home\\confirmation.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1821962"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4EIAH2Oo3v+7VdLAVtjV/tDqgPySSzqqIWuVW1cVbZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 21:46:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c5mculjpc2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/home/confirmation.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4EIAH2Oo3v+7VdLAVtjV/tDqgPySSzqqIWuVW1cVbZ8="
+        }
+      ]
+    },
+    {
+      "Route": "images/home/confirmation.jpg",
+      "AssetFile": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\home\\confirmation.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1821962"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4EIAH2Oo3v+7VdLAVtjV/tDqgPySSzqqIWuVW1cVbZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 21:46:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4EIAH2Oo3v+7VdLAVtjV/tDqgPySSzqqIWuVW1cVbZ8="
+        }
+      ]
+    },
+    {
+      "Route": "images/home/slide1.jpg",
+      "AssetFile": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\home\\slide1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2581735"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k+Ob2+thqrqnBw2tjJKyEaXrfMVg/I6dGTDHVw1ZrdM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 21:46:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k+Ob2+thqrqnBw2tjJKyEaXrfMVg/I6dGTDHVw1ZrdM="
+        }
+      ]
+    },
+    {
+      "Route": "images/home/slide1.xr84vm0qur.jpg",
+      "AssetFile": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\home\\slide1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2581735"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k+Ob2+thqrqnBw2tjJKyEaXrfMVg/I6dGTDHVw1ZrdM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 21:46:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xr84vm0qur"
+        },
+        {
+          "Name": "label",
+          "Value": "images/home/slide1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k+Ob2+thqrqnBw2tjJKyEaXrfMVg/I6dGTDHVw1ZrdM="
+        }
+      ]
+    },
+    {
+      "Route": "images/home/slide2.6r25ja0pdn.jpg",
+      "AssetFile": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\home\\slide2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2455641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zsftHjfaXaeMPBxMUKXhvBAD67eFM9PnFF6Amp1Ydmc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 21:46:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6r25ja0pdn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/home/slide2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zsftHjfaXaeMPBxMUKXhvBAD67eFM9PnFF6Amp1Ydmc="
+        }
+      ]
+    },
+    {
+      "Route": "images/home/slide2.jpg",
+      "AssetFile": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\home\\slide2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2455641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zsftHjfaXaeMPBxMUKXhvBAD67eFM9PnFF6Amp1Ydmc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 21:46:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zsftHjfaXaeMPBxMUKXhvBAD67eFM9PnFF6Amp1Ydmc="
+        }
+      ]
+    },
+    {
+      "Route": "images/villa/villa1.jpg",
+      "AssetFile": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\villa\\villa1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "299622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e2A7Nr+GoaTZvjMfN8tiS5qHPsIGTNpXTTB/7QaCSIw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 21:46:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e2A7Nr+GoaTZvjMfN8tiS5qHPsIGTNpXTTB/7QaCSIw="
+        }
+      ]
+    },
+    {
+      "Route": "images/villa/villa1.tmprp7755k.jpg",
+      "AssetFile": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\villa\\villa1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "299622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e2A7Nr+GoaTZvjMfN8tiS5qHPsIGTNpXTTB/7QaCSIw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 21:46:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tmprp7755k"
+        },
+        {
+          "Name": "label",
+          "Value": "images/villa/villa1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e2A7Nr+GoaTZvjMfN8tiS5qHPsIGTNpXTTB/7QaCSIw="
+        }
+      ]
+    },
+    {
+      "Route": "images/villa/villa2.ew5ylm429n.jpg",
+      "AssetFile": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\villa\\villa2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oqC104M02bW0Kwnk/Vvuk0pHyHjttjQQZPDDvd4wqzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 21:46:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ew5ylm429n"
+        },
+        {
+          "Name": "label",
+          "Value": "images/villa/villa2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oqC104M02bW0Kwnk/Vvuk0pHyHjttjQQZPDDvd4wqzU="
+        }
+      ]
+    },
+    {
+      "Route": "images/villa/villa2.jpg",
+      "AssetFile": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\villa\\villa2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oqC104M02bW0Kwnk/Vvuk0pHyHjttjQQZPDDvd4wqzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 21:46:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oqC104M02bW0Kwnk/Vvuk0pHyHjttjQQZPDDvd4wqzU="
+        }
+      ]
+    },
+    {
+      "Route": "images/villa/villa3.iajvd1mfdt.jpg",
+      "AssetFile": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\villa\\villa3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160550"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"amSQSs6DPzJEW/3NfqpfCglH3bgnqR641jwtJ63ux58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 21:46:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iajvd1mfdt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/villa/villa3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-amSQSs6DPzJEW/3NfqpfCglH3bgnqR641jwtJ63ux58="
+        }
+      ]
+    },
+    {
+      "Route": "images/villa/villa3.jpg",
+      "AssetFile": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\villa\\villa3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160550"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"amSQSs6DPzJEW/3NfqpfCglH3bgnqR641jwtJ63ux58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 21:46:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-amSQSs6DPzJEW/3NfqpfCglH3bgnqR641jwtJ63ux58="
+        }
+      ]
+    },
+    {
+      "Route": "images/villa/villa4.jpg",
+      "AssetFile": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\villa\\villa4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "243361"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x7N53MKiRTMWFJfQGaXRQb+5WRgbgRPvBMnWsTpYu/g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 21:46:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x7N53MKiRTMWFJfQGaXRQb+5WRgbgRPvBMnWsTpYu/g="
+        }
+      ]
+    },
+    {
+      "Route": "images/villa/villa4.zhwp7nq2j2.jpg",
+      "AssetFile": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\villa\\villa4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "243361"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x7N53MKiRTMWFJfQGaXRQb+5WRgbgRPvBMnWsTpYu/g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 21:46:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zhwp7nq2j2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/villa/villa4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-x7N53MKiRTMWFJfQGaXRQb+5WRgbgRPvBMnWsTpYu/g="
+        }
+      ]
+    },
+    {
+      "Route": "images/villa/villa5.5njr9z67y8.jpg",
+      "AssetFile": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\villa\\villa5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148821"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zy6h0PMrv9W7lECkpYadIXCGClQyQv+LsAZq7NHLY/c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 21:46:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5njr9z67y8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/villa/villa5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zy6h0PMrv9W7lECkpYadIXCGClQyQv+LsAZq7NHLY/c="
+        }
+      ]
+    },
+    {
+      "Route": "images/villa/villa5.jpg",
+      "AssetFile": "C:\\Users\\lucas.manentti\\Projetos\\MagicVila_Api\\MagicVilla_Web\\wwwroot\\images\\villa\\villa5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148821"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zy6h0PMrv9W7lECkpYadIXCGClQyQv+LsAZq7NHLY/c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 21:46:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zy6h0PMrv9W7lECkpYadIXCGClQyQv+LsAZq7NHLY/c="
         }
       ]
     },
