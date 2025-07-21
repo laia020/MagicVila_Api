@@ -37,6 +37,7 @@ namespace MagicVilla_VillaAPI.Controllers
                 IEnumerable<VillaNumber> villaNumberList = await _dbVillaNumber.GetAllAsync(includeProperties:"Villa");
                 _response.Result = _mapper.Map<List<VillaNumberDTO>>(villaNumberList);
                 _response.StatusCode = HttpStatusCode.OK;
+                _response.IsSuccess = true;
                 return Ok(_response);
             }
             catch (Exception ex)
@@ -53,21 +54,29 @@ namespace MagicVilla_VillaAPI.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<APIResponse>> GetVillaNumber(int id)
         {
-            try { 
-            if (id == 0)
+            try
             {
+                if (id == 0)
+                {
                     _response.StatusCode = HttpStatusCode.BadRequest;
                     return BadRequest(_response);
-            }
-            var villaNumber = await _dbVillaNumber.GetAsync(u => u.VillaNo == id);
-            if (villaNumber == null)
-            {
-                _response.StatusCode = HttpStatusCode.NotFound;
-                return NotFound(_response);
-            }
-            _response.Result = _mapper.Map<VillaNumberDTO>(villaNumber);
-            _response.StatusCode = HttpStatusCode.OK;
-            return Ok(_response);
+                }
+
+                var villaNumber = await _dbVillaNumber.GetAsync(
+                    u => u.VillaNo == id,
+                    includeProperties: "Villa"
+                );
+
+                if (villaNumber == null)
+                {
+                    _response.StatusCode = HttpStatusCode.NotFound;
+                    return NotFound(_response);
+                }
+
+                _response.Result = _mapper.Map<VillaNumberDTO>(villaNumber);
+                _response.StatusCode = HttpStatusCode.OK;
+                _response.IsSuccess = true;
+                return Ok(_response);
             }
             catch (Exception ex)
             {
@@ -76,6 +85,7 @@ namespace MagicVilla_VillaAPI.Controllers
             }
             return _response;
         }
+
 
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
@@ -107,6 +117,7 @@ namespace MagicVilla_VillaAPI.Controllers
 
             _response.Result = _mapper.Map<VillaNumberDTO>(villaNumber);
             _response.StatusCode = HttpStatusCode.Created;
+            _response.IsSuccess = true;
             return CreatedAtRoute("GetVillaNumber", new { ID = villaNumber.VillaNo }, _response);
             }
             catch (Exception ex)

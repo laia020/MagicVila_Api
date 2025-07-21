@@ -4,6 +4,7 @@ using MagicVilla_Web.Models.Dto;
 using MagicVilla_Web.Models.ViewModel;
 using MagicVilla_Web.Services;
 using MagicVilla_Web.Services.IServices;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
@@ -28,7 +29,7 @@ namespace MagicVilla_Web.Controllers
             List<VillaNumberDTO> list = new();
 
             var response = await _villaNumberService.GetAllAsync<APIResponse>();
-            if (response != null && response.StatusCode == System.Net.HttpStatusCode.OK)
+            if (response != null && response.IsSuccess)
             {
                 list = JsonConvert.DeserializeObject<List<VillaNumberDTO>>(Convert.ToString(response.Result));
             }
@@ -39,7 +40,7 @@ namespace MagicVilla_Web.Controllers
         {
             VillaNumberCreateViewModel villaNumberViewModel = new();
             var response = await _villaService.GetAllAsync<APIResponse>();
-            if (response != null && response.StatusCode == System.Net.HttpStatusCode.OK)
+            if (response != null && response.IsSuccess)
             {
                 villaNumberViewModel.VillaList = JsonConvert.DeserializeObject<List<VillaDTO>>
                     (Convert.ToString(response.Result)).Select(i => new SelectListItem
@@ -57,7 +58,7 @@ namespace MagicVilla_Web.Controllers
             if (ModelState.IsValid)
             {
                 var response = await _villaNumberService.CreateAsync<APIResponse>(model.VillaNumber);
-                if (response != null && response.StatusCode == System.Net.HttpStatusCode.OK)
+                if (response != null && response.IsSuccess)
                 {
                     return RedirectToAction(nameof(IndexVillaNumber));
                 }
@@ -89,14 +90,14 @@ namespace MagicVilla_Web.Controllers
         {
             VillaNumberUpdateViewModel villaNumberViewModel = new();
             var response = await _villaNumberService.GetAsync<APIResponse>(villaNo);
-            if (response != null && response.StatusCode == System.Net.HttpStatusCode.OK)
+            if (response != null && response.IsSuccess)
             {
                 VillaNumberDTO model = JsonConvert.DeserializeObject<VillaNumberDTO>(Convert.ToString(response.Result));
-                villaNumberViewModel.VillaNumber = _mapper.Map<VillaNumberUpdateDTO>(model);
+                villaNumberViewModel.VillaNumber = _mapper.Map<VillaNumberUpdateDTO>(model);  
             }
 
             response = await _villaService.GetAllAsync<APIResponse>();
-            if (response != null && response.StatusCode == System.Net.HttpStatusCode.OK)
+            if (response != null && response.IsSuccess)
             {
                 villaNumberViewModel.VillaList = JsonConvert.DeserializeObject<List<VillaDTO>>
                     (Convert.ToString(response.Result)).Select(i => new SelectListItem
@@ -116,14 +117,13 @@ namespace MagicVilla_Web.Controllers
             if (ModelState.IsValid)
             {
                 var response = await _villaNumberService.UpdateAsync<APIResponse>(model.VillaNumber);
-                if (response != null && response.StatusCode == System.Net.HttpStatusCode.OK)
+                if (response != null && response.IsSuccess)
                 {
                     return RedirectToAction(nameof(IndexVillaNumber));
                 }
                 else
                 {
-                    if (response != null &&
-                        response.StatusCode == System.Net.HttpStatusCode.BadRequest)
+                    if (response != null && response.IsSuccess)
                     {
                         ModelState.AddModelError("ErrorMessages", response.ErrorMessages?.FirstOrDefault()
                             ?? "Error to update villa number!");
@@ -132,7 +132,7 @@ namespace MagicVilla_Web.Controllers
             }
 
             var resp = await _villaService.GetAllAsync<APIResponse>();
-            if (resp != null && resp.StatusCode == System.Net.HttpStatusCode.OK)
+            if (resp != null && resp.IsSuccess)
             {
                 model.VillaList = JsonConvert.DeserializeObject<List<VillaDTO>>
                     (Convert.ToString(resp.Result)).Select(i => new SelectListItem
@@ -147,14 +147,14 @@ namespace MagicVilla_Web.Controllers
         {
             VillaNumberUpdateViewModel villaNumberViewModel = new();
             var response = await _villaNumberService.GetAsync<APIResponse>(villaNo);
-            if (response != null && response.StatusCode == System.Net.HttpStatusCode.OK)
+            if (response != null && response.IsSuccess)
             {
                 VillaNumberDTO model = JsonConvert.DeserializeObject<VillaNumberDTO>(Convert.ToString(response.Result));
                 villaNumberViewModel.VillaNumber = _mapper.Map<VillaNumberUpdateDTO>(model);
             }
 
             response = await _villaService.GetAllAsync<APIResponse>();
-            if (response != null && response.StatusCode == System.Net.HttpStatusCode.OK)
+            if (response != null && response.IsSuccess)
             {
                 villaNumberViewModel.VillaList = JsonConvert.DeserializeObject<List<VillaDTO>>
                     (Convert.ToString(response.Result)).Select(i => new SelectListItem
@@ -172,7 +172,7 @@ namespace MagicVilla_Web.Controllers
         public async Task<IActionResult> DeleteVillaNumber(VillaNumberDeleteViewModel model)
         {
             var response = await _villaNumberService.DeleteAsync<APIResponse>(model.VillaNumber.VillaNo);
-            if (response != null && response.StatusCode == System.Net.HttpStatusCode.OK)
+            if (response != null && response.IsSuccess)
             {
                 return RedirectToAction(nameof(IndexVillaNumber));
             }

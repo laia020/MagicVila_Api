@@ -22,7 +22,7 @@ namespace MagicVilla_Web.Controllers
             List<VillaDTO> list = new();
 
             var response = await _villaService.GetAllAsync<APIResponse>();
-            if (response != null && response.StatusCode == System.Net.HttpStatusCode.OK)
+            if (response != null && response.IsSuccess)
             {
                 list = JsonConvert.DeserializeObject<List<VillaDTO>>(Convert.ToString(response.Result));
             }
