@@ -125,8 +125,7 @@ namespace MagicVilla_Web.Controllers
                 {
                     if (response != null && response.IsSuccess)
                     {
-                        ModelState.AddModelError("ErrorMessages", response.ErrorMessages?.FirstOrDefault()
-                            ?? "Error to update villa number!");
+                        ModelState.AddModelError("ErrorMessages", response.ErrorMessages.FirstOrDefault());
                     }
                 }
             }
