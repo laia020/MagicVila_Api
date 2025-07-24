@@ -41,6 +41,28 @@
     "Parameters": [],
     "ReturnTypes": [
       {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 401
+      },
+      {
         "Type": "MagicVilla_VillaAPI.Models.APIResponse",
         "MediaTypes": [
           "text/plain",
@@ -99,7 +121,7 @@
           "application/xml",
           "text/xml"
         ],
-        "StatusCode": 400
+        "StatusCode": 401
       }
     ]
   },
@@ -149,6 +171,28 @@
           "application/xml",
           "text/xml"
         ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
         "StatusCode": 400
       }
     ],
@@ -184,6 +228,28 @@
           "text/xml"
         ],
         "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 401
       },
       {
         "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
