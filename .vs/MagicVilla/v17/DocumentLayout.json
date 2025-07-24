@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{527B5F64-F276-4219-8158-EF4F7FEC7DC6}|MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj|solutionrelative:magicvilla_villaapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{527B5F64-F276-4219-8158-EF4F7FEC7DC6}|MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj|c:\\users\\lucas\\onedrive\\documentos\\projetos\\magicvila_api\\magicvilla_villaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{527B5F64-F276-4219-8158-EF4F7FEC7DC6}|MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj|solutionrelative:magicvilla_villaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{527B5F64-F276-4219-8158-EF4F7FEC7DC6}|MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj|c:\\users\\lucas\\onedrive\\documentos\\projetos\\magicvila_api\\magicvilla_villaapi\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{527B5F64-F276-4219-8158-EF4F7FEC7DC6}|MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj|solutionrelative:magicvilla_villaapi\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{527B5F64-F276-4219-8158-EF4F7FEC7DC6}|MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj|c:\\users\\lucas\\onedrive\\documentos\\projetos\\magicvila_api\\magicvilla_villaapi\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{527B5F64-F276-4219-8158-EF4F7FEC7DC6}|MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj|solutionrelative:magicvilla_villaapi\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{527B5F64-F276-4219-8158-EF4F7FEC7DC6}|MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj|c:\\users\\lucas\\onedrive\\documentos\\projetos\\magicvila_api\\magicvilla_villaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{527B5F64-F276-4219-8158-EF4F7FEC7DC6}|MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj|solutionrelative:magicvilla_villaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{527B5F64-F276-4219-8158-EF4F7FEC7DC6}|MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj|c:\\users\\lucas\\onedrive\\documentos\\projetos\\magicvila_api\\magicvilla_villaapi\\repository\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +46,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "APIResponse.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Projetos\\MagicVila_Api\\MagicVilla_VillaAPI\\Models\\APIResponse.cs",
+              "RelativeDocumentMoniker": "MagicVilla_VillaAPI\\Models\\APIResponse.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\Projetos\\MagicVila_Api\\MagicVilla_VillaAPI\\Models\\APIResponse.cs",
+              "RelativeToolTip": "MagicVilla_VillaAPI\\Models\\APIResponse.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T12:52:46.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Projetos\\MagicVila_Api\\MagicVilla_VillaAPI\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "MagicVilla_VillaAPI\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\Projetos\\MagicVila_Api\\MagicVilla_VillaAPI\\Controllers\\UsersController.cs",
               "RelativeToolTip": "MagicVilla_VillaAPI\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwDgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T12:24:25.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Projetos\\MagicVila_Api\\MagicVilla_VillaAPI\\Repository\\IRepository\\IUserRepository.cs",
               "RelativeDocumentMoniker": "MagicVilla_VillaAPI\\Repository\\IRepository\\IUserRepository.cs",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Projetos\\MagicVila_Api\\MagicVilla_VillaAPI\\appsettings.json",
               "RelativeDocumentMoniker": "MagicVilla_VillaAPI\\appsettings.json",
@@ -75,8 +92,7 @@
               "RelativeToolTip": "MagicVilla_VillaAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-22T19:35:37.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T19:35:37.039Z"
             },
             {
               "$type": "Document",
@@ -86,7 +102,7 @@
               "RelativeDocumentMoniker": "MagicVilla_VillaAPI\\Repository\\UserRepository.cs",
               "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\Projetos\\MagicVila_Api\\MagicVilla_VillaAPI\\Repository\\UserRepository.cs",
               "RelativeToolTip": "MagicVilla_VillaAPI\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAA4wFIAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAjwEUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T19:10:15.074Z",
               "EditorCaption": ""
