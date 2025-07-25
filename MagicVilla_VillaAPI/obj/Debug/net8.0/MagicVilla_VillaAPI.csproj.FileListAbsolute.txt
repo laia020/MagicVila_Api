@@ -581,3 +581,5 @@ C:\Users\lucas\OneDrive\Documentos\Projetos\MagicVila_Api\MagicVilla_VillaAPI\ob
 C:\Users\lucas\OneDrive\Documentos\Projetos\MagicVila_Api\MagicVilla_VillaAPI\obj\Debug\net8.0\MagicVilla_VillaAPI.genruntimeconfig.cache
 C:\Users\lucas\OneDrive\Documentos\Projetos\MagicVila_Api\MagicVilla_VillaAPI\obj\Debug\net8.0\ref\MagicVilla_VillaAPI.dll
 C:\Users\lucas.manentti\Projetos\MagicVila_Api\MagicVilla_VillaAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\lucas.manentti\Projetos\MagicVila_Api\MagicVilla_VillaAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\lucas.manentti\Projetos\MagicVila_Api\MagicVilla_VillaAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
